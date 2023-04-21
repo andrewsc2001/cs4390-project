@@ -1,0 +1,56 @@
+2023-04-21T02:21:16.348971-05:00[America/Chicago]	ERROR:	[andrew] Attempted to divide 10.0 by 0
+2023-04-21T02:22:45.457681-05:00[America/Chicago]	INFO:	Listening for connections on port 25565
+2023-04-21T02:22:52.898015-05:00[America/Chicago]	DEBUG:	Connection established
+2023-04-21T02:22:52.900678-05:00[America/Chicago]	DEBUG:	Waiting for client to give name
+2023-04-21T02:22:52.913499-05:00[America/Chicago]	DEBUG:	Client has chosen name andrew
+2023-04-21T02:22:52.914130-05:00[America/Chicago]	INFO:	[andrew] Attached from /127.0.0.1:49781
+2023-04-21T02:22:57.231572-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "HELLO"
+2023-04-21T02:22:57.231939-05:00[America/Chicago]	ERROR:	[andrew] sent an invalid calculation request "HELLO"
+2023-04-21T02:23:03.208358-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "ADD 10 5"
+2023-04-21T02:23:03.212352-05:00[America/Chicago]	INFO:	[andrew] Calculated 10.0 + 5.0 = 15.0
+2023-04-21T02:23:03.212699-05:00[America/Chicago]	DEBUG:	[andrew] Wrote result back to client
+2023-04-21T02:23:07.337942-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "DIV 10 3"
+2023-04-21T02:23:07.338329-05:00[America/Chicago]	ERROR:	[andrew] sent request with invalud verb "DIV"
+2023-04-21T02:23:12.377747-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "DIV 10 2"
+2023-04-21T02:23:12.378164-05:00[America/Chicago]	ERROR:	[andrew] sent request with invalud verb "DIV"
+2023-04-21T02:23:20.000931-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "DIVIDE 10 2"
+2023-04-21T02:23:20.001341-05:00[America/Chicago]	INFO:	[andrew] Calculated 10.0 / 2.0 = 5.0
+2023-04-21T02:23:20.001753-05:00[America/Chicago]	DEBUG:	[andrew] Wrote result back to client
+2023-04-21T02:59:03.763546-05:00[America/Chicago]	INFO:	Listening for connections on port 25565
+2023-04-21T03:00:27.966680-05:00[America/Chicago]	INFO:	Listening for connections on port 35565
+2023-04-21T03:00:41.843111-05:00[America/Chicago]	DEBUG:	Connection established
+2023-04-21T03:00:41.846511-05:00[America/Chicago]	DEBUG:	Waiting for client to give name
+2023-04-21T03:00:41.870860-05:00[America/Chicago]	DEBUG:	Client has chosen name andrew
+2023-04-21T03:00:41.879291-05:00[America/Chicago]	INFO:	[andrew] Attached from /127.0.0.1:50894
+2023-04-21T03:00:53.115446-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "ADD 5"
+2023-04-21T03:00:53.116602-05:00[America/Chicago]	ERROR:	[andrew] sent an invalid calculation request "ADD 5"
+2023-04-21T03:00:55.757710-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "ADD 5 5"
+2023-04-21T03:00:55.778042-05:00[America/Chicago]	INFO:	[andrew] Calculated 5.0 + 5.0 = 10.0
+2023-04-21T03:00:55.783172-05:00[America/Chicago]	DEBUG:	[andrew] Wrote result back to client
+2023-04-21T03:00:57.906458-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "CLOSE"
+2023-04-21T03:00:57.908117-05:00[America/Chicago]	INFO:	[andrew] Closed the connection, lifetime PT16.027142S
+2023-04-21T03:01:32.863483-05:00[America/Chicago]	DEBUG:	Connection established
+2023-04-21T03:01:32.864391-05:00[America/Chicago]	DEBUG:	Waiting for client to give name
+2023-04-21T03:01:32.880621-05:00[America/Chicago]	DEBUG:	Client has chosen name andrew
+2023-04-21T03:01:32.881030-05:00[America/Chicago]	INFO:	[andrew] Attached from /127.0.0.1:50951
+2023-04-21T03:01:39.311276-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "ADD 5 5"
+2023-04-21T03:01:39.311652-05:00[America/Chicago]	INFO:	[andrew] Calculated 5.0 + 5.0 = 10.0
+2023-04-21T03:01:39.311886-05:00[America/Chicago]	DEBUG:	[andrew] Wrote result back to client
+2023-04-21T03:03:24.693942-05:00[America/Chicago]	INFO:	Listening for connections on port 35565
+2023-04-21T03:03:37.165442-05:00[America/Chicago]	DEBUG:	Connection established
+2023-04-21T03:03:37.168523-05:00[America/Chicago]	DEBUG:	Waiting for client to give name
+2023-04-21T03:03:37.186794-05:00[America/Chicago]	DEBUG:	Client has chosen name andrew
+2023-04-21T03:03:37.199712-05:00[America/Chicago]	INFO:	[andrew] Attached from /127.0.0.1:51007
+2023-04-21T03:04:09.094224-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "ADD 5 5"
+2023-04-21T03:04:09.116588-05:00[America/Chicago]	INFO:	[andrew] Calculated 5.0 + 5.0 = 10.0
+2023-04-21T03:04:09.121712-05:00[America/Chicago]	DEBUG:	[andrew] Wrote result back to client
+2023-04-21T03:04:13.300671-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "MUL 10 10"
+2023-04-21T03:04:13.301868-05:00[America/Chicago]	INFO:	[andrew] Calculated 10.0 * 10.0 = 100.0
+2023-04-21T03:04:13.302217-05:00[America/Chicago]	DEBUG:	[andrew] Wrote result back to client
+2023-04-21T03:04:19.803815-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "MUL 0.5 10"
+2023-04-21T03:04:19.804214-05:00[America/Chicago]	INFO:	[andrew] Calculated 0.5 * 10.0 = 5.0
+2023-04-21T03:04:19.804647-05:00[America/Chicago]	DEBUG:	[andrew] Wrote result back to client
+2023-04-21T03:04:23.868077-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "DIV 10 0"
+2023-04-21T03:04:23.869895-05:00[America/Chicago]	ERROR:	[andrew] Attempted to divide 10.0 by 0
+2023-04-21T03:04:29.378840-05:00[America/Chicago]	DEBUG:	[andrew] Recieved "CLOSE"
+2023-04-21T03:04:29.379742-05:00[America/Chicago]	INFO:	[andrew] Closed the connection, lifetime PT52.179049S
