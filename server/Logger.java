@@ -32,6 +32,7 @@ public class Logger {
     /**
      * 
      * @param line String to log
+     *             Opens file, writes formatted log message, closes file
      */
     public void d(String line) {
         try (FileWriter out = new FileWriter(fname, true)) {
@@ -53,6 +54,7 @@ public class Logger {
     /**
      * 
      * @param line String to log
+     *             Opens file, writes formatted log message, closes file
      */
     public void i(String line) {
         try (FileWriter out = new FileWriter(fname, true)) {
@@ -75,6 +77,7 @@ public class Logger {
     /**
      * 
      * @param line String to log
+     *             Opens file, writes formatted log message, closes file
      */
     public void e(String line) {
         try (FileWriter out = new FileWriter(fname, true)) {

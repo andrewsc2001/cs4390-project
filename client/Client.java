@@ -81,13 +81,15 @@ public class Client {
     }
 
     public static void main(String[] args) {
+        // Arg checking
         if (args.length != 3) {
             System.err.println("Usage client [name] [hostname] [port]");
             System.exit(1);
         }
-
+        // Parse name
         String name = args[0];
 
+        // Parse hostname and convert to InetAddress
         InetAddress addr = null;
         try {
             addr = InetAddress.getByName(args[1]);
@@ -99,6 +101,7 @@ public class Client {
 
         int port = 0;
 
+        // Parse port
         try {
             port = Integer.parseInt(args[2]);
             if (port < 1 || port > 35565) {
@@ -110,6 +113,7 @@ public class Client {
             System.exit(1);
         }
 
+        // Start client
         start(name, addr, port);
     }
 }

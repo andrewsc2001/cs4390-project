@@ -6,7 +6,15 @@ public class Server {
     public static final String LOG_FILE = "./log.txt";
     public static final int LOG_LEVEL = Logger.DEBUG;
 
+    /**
+     * 
+     * @param port
+     * @param log
+     * 
+     */
     private static void start(int port, Logger log) {
+
+        // Open ServerSocket and send client sockets to new threads.
         ServerSocket listener;
 
         try {
@@ -22,6 +30,7 @@ public class Server {
 
     public static void main(String[] args) {
 
+        // Start logger
         Logger log;
         try {
             log = new Logger(LOG_FILE, LOG_LEVEL);
@@ -30,10 +39,13 @@ public class Server {
             return;
         }
 
+        // Arg checking
         if (args.length > 1) {
             System.err.println("Usage server [port?]");
             System.exit(1);
         }
+
+        // Parse port
 
         int port = DEFAULT_PORT;
 
@@ -44,6 +56,8 @@ public class Server {
                 System.err.println("Usage server [port?]");
             }
         }
+
+        // Start server
 
         start(port, log);
     }
